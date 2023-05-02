@@ -2,6 +2,6 @@
 
 public class Opening
 {
-    private Dictionary<Move> moves = new Dictionary<Move>();
+    private Queue<Move> moves = new Queue<Move>();
 
 }
