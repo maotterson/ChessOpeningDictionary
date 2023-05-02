@@ -10,6 +10,8 @@ public class Move
 
     public Move(EPlayerColor playerColor, EPiece piece, Destination destination)
     {
-
+        EPlayerColor = playerColor;
+        EPiece = piece;
+        Destination = destination;
     }
 }
